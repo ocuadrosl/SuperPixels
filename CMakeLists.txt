@@ -12,7 +12,7 @@ include(${ITK_USE_FILE})
 
 include_directories("src/")
 
-add_executable(SuperPixels "src/SuperPixels.cpp")
+add_executable(SuperPixels "src/Main.cpp")
 
 target_link_libraries(SuperPixels  ${ITK_LIBRARIES} )#  ${VTK_LIBRARIES})
 
